@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">ProglaJurusan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tips1textjudul">1. Berdoalah Kepada Tuhan dan Mohon Restu Kepada Orang Tua</string>
+    <string name="tips1text">Setiap keberhasilan ada keikutsertaan Sang Pencipta di dalam nya.
+    Jadikan Ujian sebagai ajang untuk mempersembahkan yang terbaik kepada orang tua tercinta.
+    Oleh karena itu berdoalah dan mintalah restu kepada Orang Tua agar di beri kemudahan dan kelancaran.</string>
+    <string name="tips2textjudul">2. Perbanyak Latihan Soal</string>
+    <string name="tips2text">Dengan sering berlatih, Anda akan terbiasa menghadapi beragam soal dan
+    penguasaan terhadap materi semakin baik. Anda tidak akan cemas atau grogi dalam menghadapi soal-soal ujian.
+    </string>
+    <string name="tips3textjudul">3. Belajar Kelompok</string>
+    <string name="tips3text">Dengan belajar kelompok, anda dapat berbagi dengan teman lain dalam memecahkan soal-soal
+    dan saling menguatkan motivasi belajar.</string>
+    <string name="tips4textjudul">4. Biasakan Bersikap Jujur dan Sportif</string>
+    <string name="tips4text">Ujian (masuk Perguruan Tinggi) merupakan ajang yang sangat prestisius. Tidak heran jika
+    ada yang melakukan tindakan tidak terpuji , misal nya membeli bocoran soal atau melakukan kecurangan saat ujian.
+    Hindari tindakan-tindakan seperti itu bersikaplah Jujur dan Sportif, niscaya Tuhan akan memberi kemudahan.</string>
+    <string name="tips5textjudul">5. Hindari Belajar Sistem Kebut Semalam</string>
+    <string name="tips5text">Belajarlah jauh-jauh hari sebelum hari ujian tiba. Jangan menggnakan sistem kebut semalam yaitu
+        belajar keras saat ujian sudah dekat. Justru pada hari-hari mendekati ujian, badan dan fikiran harus rileks. Jaga kondisi tubuh
+        Anda dengan makan makanan bergizi dan cukup beristirahat.</string>
+    <string name="tips6textjudul">6. Hindari Kegiatan yang Bisa Mengganggu Konsentrasi Belajar</string>
+    <string name="tips6text">Untuk sementara tinggalkan dahulu kegiatan/kesenangan/hobby yang bisa mengganggu konsentrasi belajar,
+    seperti: bermain games, sosial media, dan menonton televisi.</string>
+
+    <string name="tips7textjudul">1. Passion</string>
+    <string name="tips7text">Hal penting dalam menentukan jurusan, dapat diukur dari keinginan kamu sendiri.
+        Kamu pasti mengetahui apa yang kamu sukai dan minati disekolah. Hal tersebut dapat kamu gunakan sebagai
+        kunci awal untuk tahu ke arah mana minat kamu. Misalnya, pelajaran favorit kamu apa? Kamu suka sekali dengan
+        pelajaran IPA dan suka hitungan, kamu bisa lebih mengarah ke jurusan Kedokteran, Sains, Pertanian, Biokimia,
+        Biologi, Matematika dan lain-lain. Dengan mengetahui itu, kamu sudah sedikit menjawab kegalauan tentang jurusan
+        yang kamu inginkan. Jangan sampai kamu memilih jurusan yang ternyata nggak kamu banget!</string>
+    <string name="tips8textjudul">2. Motivasi Diri</string>
+    <string name="tips8text">Perhatikan motivasi diri kamu dalam memilih jurusan. Motivasi dapat diartikan bahwa
+        kamu mengetahui tujuan utama setelah kamu masuk jurusan itu. Tanpa adanya motivasi yang jelas, kamu tidak
+        akan nyaman menjalani dunia perkuliahan. Nantinya, malah akan berdampak ke nilai IPK kamu juga. Jadi,
+        usahakan kamu punya motivasi diri mengapa memilih jurusan itu.</string>
+    <string name="tips10textjudul">3. Kepribadian</string>
+    <string name="tips10text">Setiap anak memiliki kepribadian yang bebeda-beda. Apa sih kaitan kepribadian dengan 
+        prioritas memilih jurusan? Ternyata ada kaitannya lho! Dengan mengetahui kepribadian diri kamu sendiri,
+        memilih jurusan akan lebih mudah. Menurut John Holland, kepribadian dapat dikelompokkan menjadi enam. 
+        Keenam kelompok kepribadian itu, yaitu: kepribadian realistic (realistis), thinkers (pemikir), 
+        creators (berjiwa seni), helpers (penolong), persuaders (menguasai orang lain), dan organizers (terorganisir). 
+        Enam kepribadian tersebut bisa kamu cocokkan dengan tipe jurusan yang akan kamu pilih, sesuai atau tidak. Jika 
+        kamu adalah orang yang terorganisir, mungkin kamu bisa memilih jurusan seperti Manajemen.</string>
+    <string name="tips11textjudul">4. Konsultasi Berdasarkan Pengalaman</string>
+    <string name="tips11text">Ungkapkan kebingungan kamu dengan mencoba konsultasi dengan guru bimbingan konseling, 
+        orang tua, dan kakak kelas. Kamu dapat bertanya tentang pengalaman mereka memilih suatu jurusan sampai 
+        dengan prospek pekerjaan setelah lulus. Bertanya langsung secara real akan memudahkan kamu. Sesuaikan
+        antara fakta pengalaman yang terjadi dengan kemampuan yang kamu miliki. </string>
+    <string name="tips12textjudul">5. Biaya</string>
+    <string name="tips12text">Dari semua hal di atas, jangan lupa untuk memprioritaskan masalah biaya juga.
+        Bila kemampuan biaya yang orang tua kamu miliki tidak sebanding dengan jurusan yang kamu inginkan.
+        Maka, perkuliahan kamu bisa menjadi kendala nantinya. Meskipun kamu dapat mencari beasiswa, tetapi
+        tidak semua anak bisa mendapatkan beasiswa dengan mudah. Oleh karena itu semaksimal mungkin sesuaikan
+        keinginan kamu dengan biaya orang tua juga ya.</string>
+
+    <string name="test1">1. Apakah Anda menyukai pekerjaan diluar ruangan?</string>
+    <string name="test2">2. Apakah anda nyaman bekerja dibelakang meja?</string>
+    <string name="test3">3. Apakah Anda memiliki daya tarik terhadap seni?</string>
+    <string name="test4">4. Apakah Anda menyukai hal yang berbau teknis?</string>
+    <string name="test5">5. Apakah Anda memiliki minat terhadap jurusan yang memerlukan konsentrasi tinggi?</string>
+    <string name="test6">6. Apakah Anda memiliki minat terhadap jurusan yang bersifat eksak?</string>
+    <string name="test7">7. Apakah Anda suka menghitung?</string>
+    <string name="test8">8. Apakah Anda suka menghafal?</string>
+    <string name="test9">9. Apakah Anda suka terhadap tantangan?</string>
+    <string name="test10">10. Apakah Anda tertarik terhadap dunia pendidikan?</string>
+    <string name="test11">11. Apakah Anda memiliki minat terhadap dunia bisnis dan perkantoran?</string>
+    <string name="test12">12. Apakah Anda memiliki minat bekerja secara tim?</string>
+    <string name="test13">13. Apakah Anda termasuk orang yang suka menyendiri?</string>
+    <string name="test14">14. Apakah Anda memiliki minat terhadap jurusan yang berbau sosial?</string>
+    <string name="test15">15. Apakah Anda memiliki minat terhadap sastra?</string>
+</resources>

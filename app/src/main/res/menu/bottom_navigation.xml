@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quis"
+        android:title="Test"
+        android:icon="@drawable/ic_new"
+        android:enabled="true">
+    </item>
+
+    <item
+        android:id="@+id/univ"
+        android:title="Passing Grade"
+        android:icon="@drawable/ic_univ"
+        android:enabled="true">
+    </item>
+
+    <item
+        android:id="@+id/tips"
+        android:title="Tips &amp; Trick"
+        android:icon="@drawable/ic_help"
+        android:enabled="true">
+    </item>
+</menu>

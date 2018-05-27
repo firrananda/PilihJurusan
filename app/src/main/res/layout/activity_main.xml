@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appbarmenu"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#FFD900">-->
+
+        <!--<android.support.design.widget.TabLayout-->
+            <!--android:id="@+id/tablayout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:accessibilityLiveRegion="none"-->
+
+            <!--android:clickable="true"-->
+            <!--app:tabBackground="@color/orange"-->
+            <!--app:tabIndicatorHeight="5dp"-->
+            <!--app:tabIndicatorColor="#FF4800"-->
+            <!--app:tabSelectedTextColor="#000000"-->
+            <!--app:tabTextColor="#000000">-->
+
+            <!--<android.support.design.widget.TabItem-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:icon="@drawable/ic_new"-->
+                <!--android:text="BARU"-->
+                <!--android:id="@+id/baru"-->
+                <!--android:textAlignment="center" />-->
+
+            <!--<android.support.design.widget.TabItem-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:icon="@drawable/ic_univ"-->
+                <!--android:text="PASSING GRADE"-->
+                <!--android:id="@+id/univ"-->
+                <!--android:textAlignment="center" />-->
+
+            <!--<android.support.design.widget.TabItem-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:icon="@drawable/ic_help"-->
+                <!--android:text="TIPS n TRICK"-->
+                <!--android:id="@+id/help"-->
+                <!--android:textAlignment="center" />-->
+
+        <!--</android.support.design.widget.TabLayout>-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/pager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+    <!--</android.support.v4.view.ViewPager>-->
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+    </FrameLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        app:itemBackground="@color/orange"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextColor="@color/colorPrimaryDark"
+        android:background="?android:attr/windowBackground"
+        android:clickable="true">
+
+    </android.support.design.widget.BottomNavigationView>
+</RelativeLayout>

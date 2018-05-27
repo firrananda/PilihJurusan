@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".QuisFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnplaytest"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="PLAY"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:backgroundTint="@color/orange"
+            android:drawableLeft="@drawable/ic_quis_play"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
