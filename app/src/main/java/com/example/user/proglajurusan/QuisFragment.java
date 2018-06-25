@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 
 
 /**
@@ -27,7 +28,7 @@ public class QuisFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_quis, container, false);
 
-        final Button btnplaytest = (Button) view.findViewById(R.id.btnplaytest);
+        final ImageView btnplaytest = (ImageView) view.findViewById(R.id.btnplaytest);
 
         btnplaytest.setOnClickListener(new View.OnClickListener() {
             @Override

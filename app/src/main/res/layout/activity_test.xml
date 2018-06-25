@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_fragment"
     android:orientation="vertical"
-    tools:context=".TestActivity">
+    tools:context="TestActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,8 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
             android:layout_marginTop="50dp">
 
             <TextView
@@ -28,154 +28,25 @@
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
-            <CheckBox
-                android:id="@+id/test1"
+            <ListView
+                android:id="@+id/lsvTanya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tvjudultest"
-                android:layout_marginTop="15dp"
-                android:text="@string/test1"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test1"
-                android:layout_marginTop="10dp"
-                android:text="@string/test2"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test2"
-                android:layout_marginTop="10dp"
-                android:text="@string/test3"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test3"
-                android:layout_marginTop="10dp"
-                android:text="@string/test4"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test4"
-                android:layout_marginTop="10dp"
-                android:text="@string/test5"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test5"
-                android:layout_marginTop="10dp"
-                android:text="@string/test6"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test6"
-                android:layout_marginTop="10dp"
-                android:text="@string/test7"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test7"
-                android:layout_marginTop="10dp"
-                android:text="@string/test8"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test8"
-                android:layout_marginTop="10dp"
-                android:text="@string/test9"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test9"
-                android:layout_marginTop="10dp"
-                android:text="@string/test10"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test10"
-                android:layout_marginTop="10dp"
-                android:text="@string/test11"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test11"
-                android:layout_marginTop="10dp"
-                android:text="@string/test12"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test12"
-                android:layout_marginTop="10dp"
-                android:text="@string/test13"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test13"
-                android:layout_marginTop="10dp"
-                android:text="@string/test14"
-                android:textSize="15sp" />
-
-            <CheckBox
-                android:id="@+id/test15"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/test14"
-                android:layout_marginTop="10dp"
-                android:text="@string/test15"
-                android:textSize="15sp" />
+                tools:ignore="NestedScrolling" />
 
             <Button
                 android:id="@+id/btnhasiltest"
                 android:layout_width="180dp"
                 android:layout_height="60dp"
-                android:layout_below="@id/test15"
-                android:text="TEST"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="20sp"
-                android:textStyle="bold"
+                android:layout_below="@id/lsvTanya"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bgbutton"
-                />
+                android:text="HASIL"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
             <TextView
                 android:id="@+id/rekom"
                 android:layout_width="match_parent"
@@ -198,6 +69,7 @@
                 android:background="#FFFC96"
                 android:padding="5dp"
                 />
+
         </RelativeLayout>
     </ScrollView>
 

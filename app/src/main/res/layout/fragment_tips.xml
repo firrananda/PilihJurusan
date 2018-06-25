@@ -15,7 +15,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp">
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp">
 
             <TextView
                 android:id="@+id/pilihjurusan"
@@ -27,349 +28,216 @@
                 android:textColor="@color/black"
                 android:gravity="center"
                 />
-
-            <ImageView
-            android:id="@+id/tips7gambar"
-            android:layout_width="300dp"
-            android:layout_height="250dp"
-            android:layout_centerHorizontal="true"
-            android:src="@drawable/passion"
-            android:layout_below="@id/pilihjurusan"/>
-
-            <TextView
-                android:id="@+id/tips7textjudul"
+            <android.support.v7.widget.CardView
+                android:id="@+id/tips1card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tips7textjudul"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:layout_below="@id/tips7gambar"
-                />
+                android:elevation="10dp"
+                android:layout_margin="10dp"
+                android:layout_below="@id/pilihjurusan">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
 
-            <TextView
-                android:id="@+id/tips7text"
+                    <ImageView
+                    android:id="@+id/tips7gambar"
+                    android:layout_width="300dp"
+                    android:layout_height="220dp"
+                    android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                    android:src="@drawable/passion"
+                        android:layout_gravity="center"/>
+
+                    <TextView
+                        android:id="@+id/tips7textjudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips7textjudul"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tips7text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips7text"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/tips2card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tips7text"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_below="@id/tips7textjudul"
-                />
+                android:layout_below="@id/tips1card"
+                android:elevation="10dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+                    <ImageView
+                        android:id="@+id/tips8gambar"
+                        android:layout_width="300dp"
+                        android:layout_height="220dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/motifasi"
+                        android:layout_marginTop="30dp"
+                        android:layout_gravity="center"/>
 
-            <ImageView
-                android:id="@+id/tips8gambar"
-                android:layout_width="300dp"
-                android:layout_height="250dp"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/motifasi"
-                android:layout_marginTop="30dp"
-                android:layout_below="@id/tips7text"/>
+                    <TextView
+                        android:id="@+id/tips8textjudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips8textjudul"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        />
 
-            <TextView
-                android:id="@+id/tips8textjudul"
+                    <TextView
+                        android:id="@+id/tips8text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips8text"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/tips3card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tips8textjudul"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:layout_below="@id/tips8gambar"
-                />
+                android:layout_below="@id/tips2card"
+                android:elevation="10dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+                    <ImageView
+                        android:id="@+id/tips10gambar"
+                        android:layout_width="300dp"
+                        android:layout_height="220dp"
+                        android:src="@drawable/kepribadian"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"/>
 
-            <TextView
-                android:id="@+id/tips8text"
+                    <TextView
+                        android:id="@+id/tips10textjudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips10textjudul"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/tips10text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips10text"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/tips4card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tips8text"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_below="@id/tips8textjudul"
-                />
+                android:layout_below="@id/tips3card"
+                android:elevation="10dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+                    <ImageView
+                        android:id="@+id/tips11gambar"
+                        android:layout_width="300dp"
+                        android:layout_height="220dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/konsultasi"
+                        android:layout_marginTop="20dp"
+                        android:layout_below="@id/tips10text"/>
 
+                    <TextView
+                        android:id="@+id/tips11textjudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips11textjudul"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:layout_below="@id/tips11gambar"
+                        />
 
-            <ImageView
-                android:id="@+id/tips10gambar"
-                android:layout_width="300dp"
-                android:layout_height="250dp"
-                android:src="@drawable/kepribadian"
-                android:layout_centerHorizontal="true"
-                android:layout_below="@+id/tips8text"
-                android:layout_marginTop="20dp"/>
+                    <TextView
+                        android:id="@+id/tips11text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips11text"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:layout_below="@id/tips11textjudul"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
 
-            <TextView
-                android:id="@+id/tips10textjudul"
+            <android.support.v7.widget.CardView
+                android:id="@+id/tips5card"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/tips10textjudul"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:layout_below="@id/tips10gambar"
-                />
+                android:layout_below="@id/tips4card"
+                android:elevation="10dp"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+                    <ImageView
+                        android:id="@+id/tips12gambar"
+                        android:layout_width="300dp"
+                        android:layout_height="220dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/biaya"
+                        android:layout_marginTop="20dp"/>
 
-            <TextView
-                android:id="@+id/tips10text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tips10text"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_below="@id/tips10textjudul"
-                />
+                    <TextView
+                        android:id="@+id/tips12textjudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips12textjudul"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        />
 
-            <ImageView
-                android:id="@+id/tips11gambar"
-                android:layout_width="300dp"
-                android:layout_height="250dp"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/konsultasi"
-                android:layout_marginTop="20dp"
-                android:layout_below="@id/tips10text"/>
+                    <TextView
+                        android:id="@+id/tips12text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tips12text"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
 
-            <TextView
-                android:id="@+id/tips11textjudul"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tips11textjudul"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:layout_below="@id/tips11gambar"
-                />
-
-            <TextView
-                android:id="@+id/tips11text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tips11text"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_below="@id/tips11textjudul"
-                />
-
-            <ImageView
-                android:id="@+id/tips12gambar"
-                android:layout_width="300dp"
-                android:layout_height="250dp"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/biaya"
-                android:layout_marginTop="20dp"
-                android:layout_below="@id/tips11text"/>
-
-            <TextView
-                android:id="@+id/tips12textjudul"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tips12textjudul"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:layout_below="@id/tips12gambar"
-                />
-
-            <TextView
-                android:id="@+id/tips12text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tips12text"
-                android:textColor="@color/black"
-                android:textSize="15dp"
-                android:layout_below="@id/tips12textjudul"
-                android:layout_marginBottom="30dp"
-                />
-
-            <!--<TextView-->
-                <!--android:id="@+id/hadapiujian"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="TIPS HADAPI UJIAN"-->
-                <!--android:textSize="25dp"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:gravity="center"-->
-                <!--android:layout_marginTop="50dp"-->
-                <!--android:layout_below="@id/tips12text"-->
-                <!--/>-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/tips1gambar"-->
-                <!--android:layout_width="300dp"-->
-                <!--android:layout_height="250dp"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:src="@drawable/doa"-->
-                <!--android:layout_below="@id/hadapiujian"/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips1textjudul"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips1textjudul"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="18dp"-->
-                <!--android:layout_below="@id/tips1gambar"-->
-                <!--/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips1text"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips1text"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="15dp"-->
-                <!--android:layout_below="@id/tips1textjudul"-->
-                <!--/>-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/tips2gambar"-->
-                <!--android:layout_width="300dp"-->
-                <!--android:layout_height="250dp"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:src="@drawable/belajar"-->
-                <!--android:layout_marginTop="40dp"-->
-                <!--android:layout_below="@id/tips1text"/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips2textjudul"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips2textjudul"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="18dp"-->
-                <!--android:layout_below="@id/tips2gambar"-->
-                <!--/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips2text"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips2text"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="15dp"-->
-                <!--android:layout_below="@id/tips2textjudul"-->
-                <!--/>-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/tips3gambar"-->
-                <!--android:layout_width="300dp"-->
-                <!--android:layout_height="250dp"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:src="@drawable/belajar_kelompok"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:layout_below="@id/tips2text"/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips3textjudul"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips3textjudul"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="18dp"-->
-                <!--android:layout_below="@id/tips3gambar"-->
-                <!--/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips3text"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips3text"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="15dp"-->
-                <!--android:layout_below="@id/tips3textjudul"-->
-                <!--/>-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/tips4gambar"-->
-                <!--android:layout_width="300dp"-->
-                <!--android:layout_height="200dp"-->
-                <!--android:src="@drawable/jujur"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:layout_below="@+id/tips3text"-->
-                <!--android:layout_marginTop="20dp"/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips4textjudul"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips4textjudul"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="18dp"-->
-                <!--android:layout_below="@id/tips4gambar"-->
-                <!--/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips4text"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips4text"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="15dp"-->
-                <!--android:layout_below="@id/tips4textjudul"-->
-                <!--/>-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/tips5gambar"-->
-                <!--android:layout_width="300dp"-->
-                <!--android:layout_height="250dp"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:src="@drawable/belajar_sks"-->
-                <!--android:layout_marginTop="20dp"-->
-                <!--android:layout_below="@id/tips4text"/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips5textjudul"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips5textjudul"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="18dp"-->
-                <!--android:layout_below="@id/tips5gambar"-->
-                <!--/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips5text"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips5text"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="15dp"-->
-                <!--android:layout_below="@id/tips5textjudul"-->
-                <!--/>-->
-
-            <!--<ImageView-->
-                <!--android:id="@+id/tips6gambar"-->
-                <!--android:layout_width="300dp"-->
-                <!--android:layout_height="200dp"-->
-                <!--android:layout_centerHorizontal="true"-->
-                <!--android:src="@drawable/sosmed"-->
-                <!--android:layout_marginTop="40dp"-->
-                <!--android:layout_below="@id/tips5text"/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips6textjudul"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips6textjudul"-->
-                <!--android:textStyle="bold"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="18dp"-->
-                <!--android:layout_below="@id/tips6gambar"-->
-                <!--/>-->
-
-            <!--<TextView-->
-                <!--android:id="@+id/tips6text"-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content"-->
-                <!--android:text="@string/tips6text"-->
-                <!--android:textColor="@color/black"-->
-                <!--android:textSize="15dp"-->
-                <!--android:layout_below="@id/tips6textjudul"-->
-                <!--/>-->
         </RelativeLayout>
 
     </ScrollView>
