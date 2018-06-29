@@ -28,12 +28,11 @@
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
-            <ListView
+            <android.support.v7.widget.RecyclerView
                 android:id="@+id/lsvTanya"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/tvjudultest"
-                tools:ignore="NestedScrolling" />
+                android:layout_below="@id/tvjudultest" />
 
             <Button
                 android:id="@+id/btnhasiltest"
@@ -44,30 +43,10 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/bgbutton"
                 android:text="HASIL"
+                android:layout_marginBottom="100dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="20sp"
-                android:textStyle="bold" />
-            <TextView
-                android:id="@+id/rekom"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/btnhasiltest"
-                android:text="Rekomendasi jurusan untuk Anda : "
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:layout_marginTop="10dp"
-                />
-            <TextView
-                android:id="@+id/tvhasiltest"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/rekom"
-                android:layout_marginTop="10dp"
-                android:text="Selamat ! anda cocok kuliah di jurusan A, B, C"
-                android:textColor="@color/black"
-                android:textSize="22sp"
-                android:background="#FFFC96"
-                android:padding="5dp"
+                android:textStyle="bold"
                 />
 
         </RelativeLayout>

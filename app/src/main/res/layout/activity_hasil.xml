@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilActivity"
+    android:background="@drawable/bg_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/selamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="100dp"
+        android:text="SELAMAT !"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/kata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anda cocok di Jurusan :"
+        android:layout_below="@id/selamat"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/hasiljurusan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kata"
+        android:text="1. PGSD (81.8%)"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="75dp"/>
+    <TextView
+        android:id="@+id/hasiljurusan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasiljurusan1"
+        android:text="2. Matematika (65.7%)"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="75dp"/>
+
+    <TextView
+        android:id="@+id/hasiljurusan3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasiljurusan2"
+        android:text="3. Sastra Indonesia (50.2%)"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginLeft="75dp"/>
+
+    <Button
+        android:id="@+id/hasilback"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/bgbutton"
+        android:text="Back"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

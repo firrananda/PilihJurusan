@@ -18,6 +18,7 @@ public class Service {
             .addConverterFactory(GsonConverterFactory.create()).build().create(GetService.class);
 
     public interface PostService{
+
     }
 
     public interface GetService{
