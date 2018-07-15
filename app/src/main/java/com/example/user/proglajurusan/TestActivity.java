@@ -65,6 +65,7 @@ public class TestActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(TestActivity.this, HasilActivity.class);
                 startActivity(intent);
+                Toast.makeText(TestActivity.this, "hasil found ", Toast.LENGTH_SHORT).show();
             }
         });
 

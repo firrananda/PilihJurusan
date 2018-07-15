@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 public class Service {
-    public static String BASE_URL = "http://192.168.43.21/";
+    public static String BASE_URL = "http://222.124.168.221/";
 
     public static PostService service_post = new Retrofit.Builder()
             .baseUrl(BASE_URL)
@@ -22,7 +22,7 @@ public class Service {
     }
 
     public interface GetService{
-        @GET("ai-expert/api/view")
+        @GET("pakar/api/view")
         Call<TanyaModel> getTanya ();
     }
 }
